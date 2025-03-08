@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+
+p,h3,a,small,button,h2,li {
+    font-family: "Song Myung", serif;
+}
+
+.linkJa {
+    
+    font-family: 'Yuji Syuku';
+    margin-right: 50px;
+    color: snow;
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #e4d2d8;
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.Logo {
+    width: 30%;
+    height: auto;
+    margin-right: 15%;
+}
+
+.Logo-inForm {
+    width: 30%;
+    height: auto;
+    margin-right: 15%;
+}
+
+.headerLink {
+    text-align: center;
+    font-size: 20px;
+}
+
+.link {
+    margin-right: 50px;
+    color: snow;
+    text-decoration: none;
+    position: relative;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: snow;
+    transition: width 0.3s ease-in-out;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+.footer {
+    font-size: 15px;
+    background-color: #e4d2d8;
+    padding: 10px;
+    text-align: center;
+}
+
+.helper {
+    text-align: right;
+    margin-top: 100px;
+}
+
+.help {
+    padding: 10px;
+    text-align: left;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.helpButton {
+    background-color: snow;
+    border: 1px solid #b3bef5;
+    border-radius: 40px;
+    padding: 10px 15px;
+    margin-right: 20px;
+}
+
+.helpTitle {
+    text-align: center;
+}
+
+.ChatForm {
+    text-align: center;
+}
+
+.message {
+    width: 80%;
+    height: 30px;
+}
+
+.send {
+    border: none;
+    background-color: #F4b3c2;
+    width: 50px;
+    height: 30px;
+    margin-bottom: 10px;
+    line-height: 1.3em;
+}
+
+.ChatLog {
+    margin-top: 20px;
+    overflow-y: scroll;
+    height: 450px;
+}
+
+.bot {
+    display: flex;
+}
+
+.to {
+    width: auto;
+    height: 100px;
+}
+
+.Tokiko {
+    border: 1px solid #F4b3c2;
+    padding: 20px;
+    border-radius: 10px 10px 10px 0px;
+    line-height: 1.3em;
+    max-width: 800px;
+    
+    font-size: 20px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.You {
+    text-align: right;
+    border: 1px solid #F4b3c2;
+    background-color: #F4b3c2;
+    margin: 0px;
+    padding: 20px;
+    border-radius: 10px 10px 0px 10px;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: fit-content;
+    max-width: 800px;
+}
+
+.hajime {
+    font-size: 50px;
+    text-align: center;
+}
+
+.introduction {
+    margin: 0px 20px;
+    padding-bottom: 30px;
+}
+
+.ninsiki {
+    font-size: 30px;
+    text-align: center;
+}
+
+.ninsikiTitle {
+
+    font-size: 20px;
+}
+
+.call, .Greetings, .ProperNoun, .Note {
+    margin: 0px 20px;
+}
+
+@media (max-width: 900px) {
+    /* 大体ピクセル７想定だけど、小ウィンドウでも見やすいよう横の最大は900で（ぇ */
+
+    .Logo {
+        width: auto;
+        height: 70px;
+    }
+
+    .link {
+        margin-right: 10px;
+        color: snow;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    .help {
+        margin: 10px;
+    }
+
+    .ChatLog {
+        margin: 10px;
+    }
+}

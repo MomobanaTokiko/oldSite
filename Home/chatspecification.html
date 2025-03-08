@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="chat.css">
+        <title>ちゃっときこ仕様ガイド - 桃花鴇子Office Site</title>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html"><img src="img/TokiLogo.png" class="Logo"></a>
+            <!-- ロゴ押せばトップに戻れるなんてみんながみんなそう思うとは限らないじゃん？ -->
+            <a href="#0" class="link">About</a>
+                <a href="#1" class="link">News</a>
+                <a href="#2" class="link">Novel</a>
+                <a href="chat.html" class="link">Chat</a>
+                <a href="#3" class="link">Links</a>
+                <a href="form.html" class="link">Inquiry</a>
+                <br>
+
+                <a href="indexEnglish.html" class="link">English</a>
+                <a href="chatKo.html" class="linkKo">한국어</a>
+        </header>
+        <div>
+            <h3>ちゃっときこの仕様</h3>
+
+            <div class="introduction">
+                <p class="hajime">はじめに</p>
+                <p>ちゃっときこは、VTuber「桃花鴇子」がモデルの<b>ルールベース型</b>チャットボットです。</p>
+                <p>ルールベース型チャットボットとは、別名「シナリオ型チャットボット」とも呼ばれ、質問に対しあらかじめ開発者が設定した回答をする仕組みを持っています。要するに、桃花鴇子を始めとした開発スタッフが各自で想定した質問のみ答えれるよう設計されたチャットボットとなっております。</p>
+                <p>昨今は人工知能搭載の機械学習可能なチャットボットが増えてきていますが、ちゃっときこはVTuber「桃花鴇子」のプライバシー保護やイメージ毀損防止、倫理観の欠けた発言や虚実の判断できない発言防止のため、あえてルールベース型を採用しています。</p>
+                <p>ちゃっときこは、VTuber「桃花鴇子」の許可を得て開発されています。</p>
+
+                <p>ちゃっときこが返答できる質問・メッセージは以下の通りです。</p>
+
+                <li>あいさつ</li>
+                <li>プロフィール関連の質問</li>
+                <li>好きなものについての質問</li>
+                <li>VTuber活動についての質問</li>
+                <li>小説執筆についての質問</li>
+                <li>簡易的な雑談</li>
+                <p>　└「嬉しかった」「楽しかった」といった感情に反応します。</p>
+
+            </div>
+            
+            <hr>
+            <p class="ninsiki">ーーちゃっときこが認識できる単語ーー</p>
+            <div class="call">
+                <p class="ninsikiTitle">二人称</p>
+                <li>あなた</li>
+                <li>貴方</li>
+                <li>貴女</li>
+                <li>君</li>
+                <li>きみ</li>
+                <li>お前</li>
+                <li>おまえ</li>
+                <li>貴様</li>
+                <li>きさま</li>
+                <li>桃花鴇子<sup>[1]</sup></li>
+                <li>桃花</li>
+                <li>鴇子<sup>[1]</sup></li>
+            </div>
+            
+            <div class="Greetings">
+                <p class="ninsikiTitle">あいさつ</p>
+                <li>おはよう</li>
+                <li>おはようございます</li>
+                <li>おはもも</li>
+                <li>こんにちは</li>
+                <li>こんもも</li>
+                <li>おやすみなさい</li>
+                <li>お疲れ様</li>
+                <li>お疲れ様</li>
+                <li>おつもも</li>
+            </div>
+            
+            <div class="ProperNoun">
+                <p class="ninsikiTitle">固有名詞関連</p>
+                <li>グランドチェイス<sup>[2]</sup></li>
+                <li>グラチェ<sup>[2]</sup></li>
+                <li>Grand Chase<sup>[2]　[3]</sup></li>
+                <li>Grand Chase Classic<sup>[3]</sup></li>
+                <li>グランドチェイスクラシック</li>
+                <li>連縁Project<sup>[4]</sup></li>
+                <li>連縁<sup>[5]</sup></li>
+
+                <p class="ninsikiTitle">固有名詞関連-小説</p>
+                <li>ネトゲ廃人予備軍</li>
+                <li>鴾羽ハシル</li>
+                <li>倉木咲</li>
+                <li>ワンダーリスク</li>
+                <li>ワンリス</li>
+            </div>
+
+            <hr>
+
+            <div class="Note">
+                <p class="ninsikiTitle">注釈</p>
+                <p class="ninsikiNote">1：「ちゃん」を付けて呼ばれた際も対応可能です。</p>
+                <p class="ninsikiNote">2：モバイル版である「グランドチェイス-次元の追跡者-」ではなく、PC版の「Grand Chase Classic」のことと認識しています。</p>
+                <p class="ninsikiNote">3：スペース省略による認識も可能です。</p>
+                <p class="ninsikiNote">4：「連縁project」でも認識可能です。</p>
+                <p class="ninsikiNote">5：「鏈縁」は認識できないそうです。</p>
+            </div>
+            
+        </div>
+
+        <footer class="footer">
+            <small> &copy; 2024 MomobanaTokiko / MomoyumeNatsumi</small>
+            <p class="footerText">当サイトの著作権は全て桃花鴇子、及びその主である<ruby>桃夢<rt>ももゆめ</rt></ruby><ruby>夏実<rt>なつみ</rt></ruby>にあります。</p>
+            <p class="footerText">桃花鴇子は、<a href="https://customcast.jp/guidelines/" target="_blank">カスタムキャストの個人利用のガイドライン</a>に則って制作されているVTuberです。</p>
+            <p class="footerText">ご不明点等ございましたら、<a href="https://x.com/iruka_momonatsu" target="_blank">こちら</a>からご連絡ください。</p>
+        </footer>
+        <!-- てかさー、ちゃっときこのソース見れたら普通にこのページの意味なくない？ｗ -->
+    </body>
+</html>

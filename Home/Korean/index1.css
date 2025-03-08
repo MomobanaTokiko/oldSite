@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&family=Zen+Kurenaido&display=swap');
+
+
+/* 【胸痛】フォント */
+p,h3,a,small,button,li {
+    font-family: "Song Myung", serif;
+}
+
+.linkJp {
+    font-family: 'Yuji Syuku';
+    margin-right: 50px;
+    color: snow;
+    text-decoration: none;
+}
+
+/* 【胸痛】ヘッダーと愉快な仲間たち（ぇ */
+header {
+    background-color: #e4d2d8;
+    padding: 10px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.Logo {
+    width: 9%;
+    height: auto;
+    margin-right: 21%;
+}
+
+.Logo-inForm {
+    width: 30%;
+    height: auto;
+    margin-right: 15%;
+}
+
+.headerLink {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.Top {
+    padding: 30px;
+    width: 96%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 80px;
+}
+
+.link {
+    margin-right: 50px;
+    color: snow;
+    text-decoration: none;
+    position: relative;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: snow;
+    transition: width 0.3s ease-in-out;
+}
+
+.link:hover::after {
+    width: 100%;
+}
+
+body {
+    margin: auto;
+}
+
+.Catchphrase {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.setumei {
+    border: 1px solid;
+    padding: 30px 50px;
+    margin: 50px;
+}
+
+.subtitle {
+    font-size: 70px;
+    text-align: center;
+}
+
+/* 線実装 */
+.subtitle::after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 3px;
+    background-color: #f4b3c2;
+    transition: width 0.3s ease-in-out;
+}
+
+.subtitle:hover::after {
+    width: 200px;
+}
+
+.abouTokiko {
+    font-size: 30px;
+}
+
+.imgs {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ようつべ埋め込みリンクたちの間隔 */
+.game {
+    margin-left: 25px;
+}
+
+.net {
+    margin-left: 40px;
+}
+
+.profilezone {
+    margin: 10px 50px;
+    border: 1px solid;
+    display: flex;
+    padding-left: 30px;
+}
+
+.ProfileText {
+    padding: 80px;
+    margin-left: auto;
+}
+
+.profTitle {
+    font-size: 40px;
+    text-align: center;
+}
+
+.likeGame {
+    word-break: keep-all;
+}
+
+.Tokiko {
+    width: 50%;
+    height: auto;
+    padding-left: 80px;
+    margin-left: auto;
+}
+
+/* 埋め込まれたTwitter 埋めたの私だけどねｗ */
+.twitter-timeline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 執筆したオリジナル小説。夢小説なんかねぇよ */
+.Novel {
+    display: flex;
+    border: 1px solid;
+    margin: 10px 50px;
+}
+
+.url {
+    text-decoration: none;
+    color: black;
+}
+
+.NovelItem {
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.NovelItem img:hover {
+    transform: scale(1.1);
+}
+
+.NovelImg {
+    width: 50%;
+    height: auto;
+    transition:all 0.3s;
+}
+
+.NovelTitle {
+    font-size: 30px;
+}
+
+.NovelSetumei {
+    width: 300px;
+    font-size: 15px;
+}
+
+/* ちゃっときこ */
+.chat {
+    border: 1px solid;
+    margin: 10px 50px;
+    padding: 10px;
+}
+
+.sample {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: auto;
+}
+
+.letsTitle {
+    text-align: center;
+    font-size: 35px;
+}
+
+.lets {
+    text-align: center;
+    font-size: 25px;
+}
+
+.buttons {
+    text-align: center;
+    padding: 20px;
+}
+
+/* リンク集 */
+
+.tables {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sns {
+    padding: 0px 50px 50px 50px;
+}
+
+.LinkLink {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.LogoImg {
+    width: 100px;
+    height: auto;
+    transition:all 0.3s;
+}
+
+.LogoImg-Y {
+    width: 140px;
+    height: 80px;
+    transition:all 0.3s;
+}
+
+.sns img:hover {
+    transform: scale(1.2);
+}
+
+.address {
+    width: 250px;
+    padding: 0px 30px 30px 30px;
+}
+
+.addressLink {
+    text-decoration: none;
+    color: black;
+}
+
+/* 【胸痛】フッター */
+.footer {
+    background-color: #e4d2d8;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footer1 {
+    background-color: #e4d2d8;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    
+    position: relative;
+    top: 100px;
+}
+
+/* ふぉ～むふぉ～む　ちゃおふぉ～む～（ぇ　お問い合わせなんだけど、鯖作らなきゃ機能しないページになるんで、リンク集にしましたｗ */
+.inquiry {
+    text-align: center;
+    font-size: 50px;
+}
+
+.former {
+    padding: 30px;
+    border: 1px solid;
+    margin: 30px;
+    margin-top: 0px;
+    position: relative;
+    top: 120px;
+    bottom: 100px;
+}
+
+.form {
+    text-align: center;
+}
+
+.address img:hover {
+    transform: scale(1.2);
+}
+
+.name {
+    width: 550px;
+    height: 40px;
+    margin: 20px;
+}
+
+.mail {
+    width: 550px;
+    height: 40px;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.file {
+    margin-right: 300px;
+}
+
+.text {
+    width: 550px;
+    height: 100px;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.Required {
+    color: red;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 145px;
+}
+
+/* あのさぁ、このcssファイルすげー縦長だよね。htmlとかpyとかもそうだけど、小説と違ってさ、プログラム書くとついこうやって空白行作りたがるんだよなー。見やすいけどスクロールがめんどいｗ */
+
+/* レスポンシブ */
+@media (max-width: 900px) {
+    
+    .Logo {
+        width: auto;
+        height: 70px;
+    }
+
+    .link {
+        margin-right: 10px;
+        color: snow;
+        text-decoration: none;
+    }
+
+    .Top {
+        padding: 0px;
+    }
+
+    .subtitle {
+        font-size: 70px;
+        text-align: center;
+        margin: 30px;
+    }
+
+    .Catchphrase {
+        text-align: center;
+        font-size: 21px;
+        padding-bottom: 20px;
+    }
+
+    .setumei {
+        border: 1px solid;
+        padding: 30px 20px;
+        margin: 15px;
+    }
+
+    .abouTokiko {
+        font-size: 30px;
+        margin: 10px;
+    }
+
+    .game {
+        width: 45%;
+        height: auto;
+        margin-left: 0px;
+    }
+    
+    .net {
+        width: 45%;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .profilezone {
+        margin: 10px 15px;
+        border: 1px solid;
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    .profTitle {
+        margin: 10px;
+    }
+
+    .ProfileText {
+        padding: 10px;
+        margin-left: auto;
+    }
+
+    .Tokiko {
+        width: auto;
+        height: 90%;
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+
+    .Novel {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid;
+        margin: 10px 15px;
+    }
+
+    .NovelSetumei {
+        width: 340px;
+    }
+
+    .NovelItem {
+        padding: 15px;
+    }
+
+    .NovelTitle {
+        margin: 10px;
+    }
+
+    .NovelImg {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .chat {
+        margin: 10px 15px;
+    }
+
+    .letsTitle {
+        margin: 10px;
+    }
+
+    .footerText {
+        font-size: 10px;
+    }
+
+    /* イナバちゃおふぉ～む（ぇ */
+    .inquiry {
+        font-size: 48px;
+    }
+
+    .name {
+        width: 240px;
+        height: 40px;
+        margin: 20px;
+    }
+    
+    .mail {
+        width: 240px;
+        height: 40px;
+        margin: 20px;
+        margin-top: 0px;
+    }
+    
+    .file {
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    
+    .text {
+        width: 240px;
+        height: 100px;
+        margin: 20px;
+        margin-top: 0px;
+    }
+
+    .Required {
+        color: red;
+        margin-bottom: 0px;
+        text-align: left;
+        margin-left: 30px;
+        font-size: 15px;
+    }
+
+    .former {
+        padding: 30px;
+        border: 1px solid;
+        margin-left: 15px;
+        margin-right: 15px;
+        position: relative;
+        top: 120px;
+        bottom: 100px;
+    }
+
+    .tables {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .tables p {
+        font-size: 10px;
+    }
+    .sns {
+        padding: 0px 0px 50px 0px;
+    }
+    
+    .LinkLink {
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+    
+    .LogoImg {
+        width: 50px;
+        height: auto;
+    }
+    
+    .LogoImg-Y {
+        width: 80px;
+        height: auto;
+    }
+
+    progress {
+        width: 50px;
+    }
+    
+    .address {
+        width: 250px;
+        padding: 0px 0px 30px 10px;
+    }
+    
+    .addressLink {
+        text-decoration: none;
+        color: black;
+    }
+}
